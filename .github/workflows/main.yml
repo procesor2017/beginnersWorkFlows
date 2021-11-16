@@ -28,6 +28,6 @@ jobs:
       - name: Run Newman
         uses: matt-ball/newman-action@v1.0.2
         with: 
-          collection: ${{ github.workspace }}/test/Postman/TestApi.json
+          collection: ./test/Postman/TestApi.json
           reporters: cli
       
