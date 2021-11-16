@@ -54,4 +54,5 @@ jobs:
           -v ${{ github.workspace }}/test/RobotFrameWork:/opt/robotframework/reports:Z \
           -v ${{ github.workspace }}/test/RobotFrameWork:/opt/robotframework/tests:Z \
           -e BROWSER=chrome \
+          --user=1001:1001 \
           ppodgorsek/robot-framework:latest
